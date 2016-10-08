@@ -78,7 +78,10 @@ $this->params['breadcrumbs'][] = $this->title;
             'no_tel_bapa',
             'no_hp_bapa',
             'alamat_majikan_bapa_penjaga:ntext',
-            'gaji_bapa',
+            [
+                'attribute' => 'Gaji Bapa',
+                'value'=>$model->gaji_bapa ? $model->pendapatanbapa->pendapatan : null,
+            ],
             'nama_ibu',
             'no_kad_pengenalan_ibu',
             'pekerjaan_ibu',
@@ -86,10 +89,13 @@ $this->params['breadcrumbs'][] = $this->title;
             'no_hp_ibu',
             'alamat_majikan_ibu:ntext',
             'gaji_ibu',
-            'date_create',
-            'date_update',
-            'enter_by',
-            'update_by',
+            [
+                'attribute' => 'Gaji Ibu',
+                'value'=>$model->gaji_ibu ? $model->pendapatanibu->pendapatan : null,
+            ],
+
+
+
         ],
     ]) ?>
 

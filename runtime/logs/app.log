@@ -26394,3 +26394,541 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1475630320.251
     'REQUEST_TIME' => 1475630320
 ]
+2016-10-05 11:49:26 [::1][1][r2tkv37v6jha87c6chcjki3sq3][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "gii\".' in C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('gii\\', Array)
+#1 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\tafhim\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\tafhim\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-05 11:49:26 [::1][1][r2tkv37v6jha87c6chcjki3sq3][info][application] $_GET = [
+    'r' => 'gii\\'
+]
+
+$_COOKIE = [
+    '_csrf' => 'a364a6f0d280eb34187f8fdc79320eb33f3102c426bacebcbfba5ff85763d70ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AcnxEITPpjh2bJoRWt6HgYt-kFOyX7hA\";}'
+    'PHPSESSID' => 'r2tkv37v6jha87c6chcjki3sq3'
+    '_csrf-frontend' => 'f29cab4ae75173f8de79c128fdc68ebed8e3879dec46e30bcbe539918c9c9672a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"llkP9Bq2S_rpVzjVIoFCTZa5LNla3vD-\";}'
+    'advanced-frontend' => 'icf6nhocurmttearml26lob7v3'
+    'sidebar_closed' => '0'
+    '_identity-frontend' => '2d836ce369a258cb893fc41b94fcbf191252988a1e43d9520f7fe0de7f688835a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[28,\"n0sx5BYQc15YLKpi6juHtw4nn0i3PZAB\",2592000]\";}'
+    '_identity' => '85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XxoFumqMguIL9fb1Exu6mFC432hGsoEl\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/tafhim/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=a364a6f0d280eb34187f8fdc79320eb33f3102c426bacebcbfba5ff85763d70ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AcnxEITPpjh2bJoRWt6HgYt-kFOyX7hA%22%3B%7D; PHPSESSID=r2tkv37v6jha87c6chcjki3sq3; _csrf-frontend=f29cab4ae75173f8de79c128fdc68ebed8e3879dec46e30bcbe539918c9c9672a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22llkP9Bq2S_rpVzjVIoFCTZa5LNla3vD-%22%3B%7D; advanced-frontend=icf6nhocurmttearml26lob7v3; sidebar_closed=0; _identity-frontend=2d836ce369a258cb893fc41b94fcbf191252988a1e43d9520f7fe0de7f688835a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B28%2C%22n0sx5BYQc15YLKpi6juHtw4nn0i3PZAB%22%2C2592000%5D%22%3B%7D; _identity=85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XxoFumqMguIL9fb1Exu6mFC432hGsoEl%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhim/web/index.php'
+    'REMOTE_PORT' => '53717'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii\\'
+    'REQUEST_URI' => '/tafhim/web/index.php?r=gii\\'
+    'SCRIPT_NAME' => '/tafhim/web/index.php'
+    'PHP_SELF' => '/tafhim/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1475639366.036
+    'REQUEST_TIME' => 1475639366
+]
+2016-10-08 09:03:24 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\MaklumatPelajarPenjaga::pendapatan_Bapa' in C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('pendapatan_Bapa')
+#1 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(204): yii\db\BaseActiveRecord->__get('pendapatan_Bapa')
+#2 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(197): yii\helpers\BaseArrayHelper::getValue(Object(app\models\MaklumatPelajarPenjaga), 'pendapatan_Bapa', NULL)
+#3 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\widgets\DetailView.php(215): yii\helpers\BaseArrayHelper::getValue(Object(app\models\MaklumatPelajarPenjaga), 'pendapatan_Bapa...')
+#4 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\widgets\DetailView.php(124): yii\widgets\DetailView->normalizeAttributes()
+#5 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Object.php(107): yii\widgets\DetailView->init()
+#6 [internal function]: yii\base\Object->__construct(Array)
+#7 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\di\Container.php(379): ReflectionClass->newInstanceArgs(Array)
+#8 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#9 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#10 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Widget.php(101): yii\BaseYii::createObject(Array)
+#11 C:\xampp\htdocs\tafhim\views\maklumat-pelajar-penjaga\view.php(90): yii\base\Widget::widget(Array)
+#12 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#14 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\MaklumatPelajarPenjagaController))
+#15 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('view', Array, Object(app\controllers\MaklumatPelajarPenjagaController))
+#16 C:\xampp\htdocs\tafhim\controllers\MaklumatPelajarPenjagaController.php(123): yii\base\Controller->render('view', Array)
+#17 [internal function]: app\controllers\MaklumatPelajarPenjagaController->actionView('2845')
+#18 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#19 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#21 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('maklumat-pelaja...', Array)
+#22 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 C:\xampp\htdocs\tafhim\web\index.php(12): yii\base\Application->run()
+#24 {main}
+2016-10-08 09:03:23 [::1][-][-][info][application] $_GET = [
+    'r' => 'maklumat-pelajar-penjaga/view'
+    'id' => '2845'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C\";}'
+    'PHPSESSID' => 'mb157bqb9a6o2tedjgjs6kd5k1'
+    '_csrf' => '1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX\";}'
+    '_identity' => '85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XxoFumqMguIL9fb1Exu6mFC432hGsoEl\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fpending'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C%22%3B%7D; PHPSESSID=mb157bqb9a6o2tedjgjs6kd5k1; _csrf=1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX%22%3B%7D; _identity=85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XxoFumqMguIL9fb1Exu6mFC432hGsoEl%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhim/web/index.php'
+    'REMOTE_PORT' => '59865'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=maklumat-pelajar-penjaga%2Fview&id=2845'
+    'REQUEST_URI' => '/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fview&id=2845'
+    'SCRIPT_NAME' => '/tafhim/web/index.php'
+    'PHP_SELF' => '/tafhim/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1475888603.778
+    'REQUEST_TIME' => 1475888603
+]
+2016-10-08 09:03:33 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The attribute must be specified in the format of "attribute", "attribute:format" or "attribute:format:label"' in C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\widgets\DetailView.php:188
+Stack trace:
+#0 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\widgets\DetailView.php(124): yii\widgets\DetailView->normalizeAttributes()
+#1 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Object.php(107): yii\widgets\DetailView->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\di\Container.php(379): ReflectionClass->newInstanceArgs(Array)
+#4 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#5 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#6 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Widget.php(101): yii\BaseYii::createObject(Array)
+#7 C:\xampp\htdocs\tafhim\views\maklumat-pelajar-penjaga\view.php(90): yii\base\Widget::widget(Array)
+#8 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#10 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\MaklumatPelajarPenjagaController))
+#11 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('view', Array, Object(app\controllers\MaklumatPelajarPenjagaController))
+#12 C:\xampp\htdocs\tafhim\controllers\MaklumatPelajarPenjagaController.php(123): yii\base\Controller->render('view', Array)
+#13 [internal function]: app\controllers\MaklumatPelajarPenjagaController->actionView('2845')
+#14 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#17 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('maklumat-pelaja...', Array)
+#18 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\xampp\htdocs\tafhim\web\index.php(12): yii\base\Application->run()
+#20 {main}
+2016-10-08 09:03:33 [::1][-][-][info][application] $_GET = [
+    'r' => 'maklumat-pelajar-penjaga/view'
+    'id' => '2845'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C\";}'
+    'PHPSESSID' => 'mb157bqb9a6o2tedjgjs6kd5k1'
+    '_csrf' => '1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX\";}'
+    '_identity' => '85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XxoFumqMguIL9fb1Exu6mFC432hGsoEl\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fpending'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C%22%3B%7D; PHPSESSID=mb157bqb9a6o2tedjgjs6kd5k1; _csrf=1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX%22%3B%7D; _identity=85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XxoFumqMguIL9fb1Exu6mFC432hGsoEl%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhim/web/index.php'
+    'REMOTE_PORT' => '59868'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=maklumat-pelajar-penjaga%2Fview&id=2845'
+    'REQUEST_URI' => '/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fview&id=2845'
+    'SCRIPT_NAME' => '/tafhim/web/index.php'
+    'PHP_SELF' => '/tafhim/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1475888613.605
+    'REQUEST_TIME' => 1475888613
+]
+2016-10-08 09:21:55 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'DetailView' not found' in C:\xampp\htdocs\tafhim\views\maklumat-pelajar-penjaga\status.php:64
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-10-08 09:21:55 [::1][-][-][info][application] $_GET = [
+    'r' => 'maklumat-pelajar-penjaga/status'
+    'id' => '2845'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C\";}'
+    'PHPSESSID' => 'mb157bqb9a6o2tedjgjs6kd5k1'
+    '_csrf' => '1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX\";}'
+    '_identity' => '85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XxoFumqMguIL9fb1Exu6mFC432hGsoEl\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fpending'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C%22%3B%7D; PHPSESSID=mb157bqb9a6o2tedjgjs6kd5k1; _csrf=1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX%22%3B%7D; _identity=85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XxoFumqMguIL9fb1Exu6mFC432hGsoEl%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhim/web/index.php'
+    'REMOTE_PORT' => '60102'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=maklumat-pelajar-penjaga%2Fstatus&id=2845'
+    'REQUEST_URI' => '/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fstatus&id=2845'
+    'SCRIPT_NAME' => '/tafhim/web/index.php'
+    'PHP_SELF' => '/tafhim/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1475889715.802
+    'REQUEST_TIME' => 1475889715
+]
+2016-10-08 09:22:06 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\MaklumatPelajarPenjaga::nama_pusat_pengajian_pertama' in C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('nama_pusat_peng...')
+#1 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\helpers\BaseArrayHelper.php(204): yii\db\BaseActiveRecord->__get('nama_pusat_peng...')
+#2 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\widgets\DetailView.php(215): yii\helpers\BaseArrayHelper::getValue(Object(app\models\MaklumatPelajarPenjaga), 'nama_pusat_peng...')
+#3 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\widgets\DetailView.php(124): yii\widgets\DetailView->normalizeAttributes()
+#4 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Object.php(107): yii\widgets\DetailView->init()
+#5 [internal function]: yii\base\Object->__construct(Array)
+#6 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\di\Container.php(379): ReflectionClass->newInstanceArgs(Array)
+#7 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\di\Container.php(154): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#8 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#9 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Widget.php(101): yii\BaseYii::createObject(Array)
+#10 C:\xampp\htdocs\tafhim\views\maklumat-pelajar-penjaga\status.php(78): yii\base\Widget::widget(Array)
+#11 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#13 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\MaklumatPelajarPenjagaController))
+#14 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('status', Array, Object(app\controllers\MaklumatPelajarPenjagaController))
+#15 C:\xampp\htdocs\tafhim\controllers\MaklumatPelajarPenjagaController.php(174): yii\base\Controller->render('status', Array)
+#16 [internal function]: app\controllers\MaklumatPelajarPenjagaController->actionStatus('2845')
+#17 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#18 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#19 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('status', Array)
+#20 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('maklumat-pelaja...', Array)
+#21 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 C:\xampp\htdocs\tafhim\web\index.php(12): yii\base\Application->run()
+#23 {main}
+2016-10-08 09:22:06 [::1][-][-][info][application] $_GET = [
+    'r' => 'maklumat-pelajar-penjaga/status'
+    'id' => '2845'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C\";}'
+    'PHPSESSID' => 'mb157bqb9a6o2tedjgjs6kd5k1'
+    '_csrf' => '1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX\";}'
+    '_identity' => '85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XxoFumqMguIL9fb1Exu6mFC432hGsoEl\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fpending'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C%22%3B%7D; PHPSESSID=mb157bqb9a6o2tedjgjs6kd5k1; _csrf=1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX%22%3B%7D; _identity=85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XxoFumqMguIL9fb1Exu6mFC432hGsoEl%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhim/web/index.php'
+    'REMOTE_PORT' => '60105'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=maklumat-pelajar-penjaga%2Fstatus&id=2845'
+    'REQUEST_URI' => '/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fstatus&id=2845'
+    'SCRIPT_NAME' => '/tafhim/web/index.php'
+    'PHP_SELF' => '/tafhim/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1475889726.207
+    'REQUEST_TIME' => 1475889726
+]
+2016-10-08 09:28:28 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\MaklumatPelajarPenjaga::nama_pusat_pengajian_pertama' in C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('nama_pusat_peng...')
+#1 C:\xampp\htdocs\tafhim\views\maklumat-pelajar-penjaga\status.php(71): yii\db\BaseActiveRecord->__get('nama_pusat_peng...')
+#2 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\MaklumatPelajarPenjagaController))
+#5 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('status', Array, Object(app\controllers\MaklumatPelajarPenjagaController))
+#6 C:\xampp\htdocs\tafhim\controllers\MaklumatPelajarPenjagaController.php(174): yii\base\Controller->render('status', Array)
+#7 [internal function]: app\controllers\MaklumatPelajarPenjagaController->actionStatus('2845')
+#8 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('status', Array)
+#11 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('maklumat-pelaja...', Array)
+#12 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\tafhim\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-10-08 09:28:28 [::1][-][-][info][application] $_GET = [
+    'r' => 'maklumat-pelajar-penjaga/status'
+    'id' => '2845'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C\";}'
+    'PHPSESSID' => 'mb157bqb9a6o2tedjgjs6kd5k1'
+    '_csrf' => '1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX\";}'
+    '_identity' => '85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XxoFumqMguIL9fb1Exu6mFC432hGsoEl\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fpending'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C%22%3B%7D; PHPSESSID=mb157bqb9a6o2tedjgjs6kd5k1; _csrf=1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX%22%3B%7D; _identity=85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XxoFumqMguIL9fb1Exu6mFC432hGsoEl%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhim/web/index.php'
+    'REMOTE_PORT' => '60194'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=maklumat-pelajar-penjaga%2Fstatus&id=2845'
+    'REQUEST_URI' => '/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fstatus&id=2845'
+    'SCRIPT_NAME' => '/tafhim/web/index.php'
+    'PHP_SELF' => '/tafhim/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1475890108.422
+    'REQUEST_TIME' => 1475890108
+]
+2016-10-08 09:28:44 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\MaklumatPelajarPenjaga::nama_pusat_pengajian_pertama' in C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('nama_pusat_peng...')
+#1 C:\xampp\htdocs\tafhim\views\maklumat-pelajar-penjaga\status.php(71): yii\db\BaseActiveRecord->__get('nama_pusat_peng...')
+#2 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(325): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\MaklumatPelajarPenjagaController))
+#5 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('status', Array, Object(app\controllers\MaklumatPelajarPenjagaController))
+#6 C:\xampp\htdocs\tafhim\controllers\MaklumatPelajarPenjagaController.php(174): yii\base\Controller->render('status', Array)
+#7 [internal function]: app\controllers\MaklumatPelajarPenjagaController->actionStatus('2845')
+#8 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('status', Array)
+#11 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('maklumat-pelaja...', Array)
+#12 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\xampp\htdocs\tafhim\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2016-10-08 09:28:44 [::1][-][-][info][application] $_GET = [
+    'r' => 'maklumat-pelajar-penjaga/status'
+    'id' => '2845'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C\";}'
+    'PHPSESSID' => 'mb157bqb9a6o2tedjgjs6kd5k1'
+    '_csrf' => '1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX\";}'
+    '_identity' => '85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"XxoFumqMguIL9fb1Exu6mFC432hGsoEl\",2592000]\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fpending'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C%22%3B%7D; PHPSESSID=mb157bqb9a6o2tedjgjs6kd5k1; _csrf=1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX%22%3B%7D; _identity=85582b249f7f6c783862dd53301f362e3398f07622e6a407c7f929bf0704ceb9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22XxoFumqMguIL9fb1Exu6mFC432hGsoEl%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhim/web/index.php'
+    'REMOTE_PORT' => '60201'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=maklumat-pelajar-penjaga%2Fstatus&id=2845'
+    'REQUEST_URI' => '/tafhim/web/index.php?r=maklumat-pelajar-penjaga%2Fstatus&id=2845'
+    'SCRIPT_NAME' => '/tafhim/web/index.php'
+    'PHP_SELF' => '/tafhim/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1475890124.143
+    'REQUEST_TIME' => 1475890124
+]

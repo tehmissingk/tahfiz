@@ -160,6 +160,24 @@ class MaklumatPelajarPenjagaController extends Controller
         }
     }
 
+    public function actionStatus($id)
+    {
+        $model = $this->findModel($id);
+        $model_pusat = MaklumatPilihanPusatPengajian::find()->where(['id_pelajar'=>$id])->one();
+
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['pending']);
+        } else {
+            return $this->render('status', [
+                'model' => $model,
+                'model_pusat' => $model_pusat,
+            ]);
+        }
+    }
+
+
+
+
     /**
      * Deletes an existing MaklumatPelajarPenjaga model.
      * If deletion is successful, the browser will be redirected to the 'index' page.

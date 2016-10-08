@@ -83,7 +83,7 @@ class MaklumatPelajarPenjaga extends \yii\db\ActiveRecord
             'tempat_lahir' => 'Tempat Lahir',
             'no_surat_beranak' => 'No Surat Beranak',
             'no_mykid' => 'No Mykid',
-            'pusat_pengajian_id' => 'Pusat Pengajian ID',
+            'pusat_pengajian_id' => 'Pusat Pengajian',
             'sesi_pengajian' => 'Sesi Pengajian',
             'tarikh_masuk' => 'Tarikh Masuk',
             'tahun_mula' => 'Tahun Mula',
@@ -98,14 +98,14 @@ class MaklumatPelajarPenjaga extends \yii\db\ActiveRecord
             'no_kad_pengenalan_bapa' => 'No Kad Pengenalan Bapa',
             'pekerjaan_bapa_penjaga' => 'Pekerjaan Bapa Penjaga',
             'no_tel_bapa' => 'No Tel Bapa',
-            'no_hp_bapa' => 'No Hp Bapa',
+            'no_hp_bapa' => 'No Handphone Bapa',
             'alamat_majikan_bapa_penjaga' => 'Alamat Majikan Bapa Penjaga',
             'gaji_bapa' => 'Gaji Bapa',
             'nama_ibu' => 'Nama Ibu',
             'no_kad_pengenalan_ibu' => 'No Kad Pengenalan Ibu',
             'pekerjaan_ibu' => 'Pekerjaan Ibu',
             'no_tel_ibu' => 'No Tel Ibu',
-            'no_hp_ibu' => 'No Hp Ibu',
+            'no_hp_ibu' => 'No Handphone Ibu',
             'alamat_majikan_ibu' => 'Alamat Majikan Ibu',
             'gaji_ibu' => 'Gaji Ibu',
             'date_create' => 'Date Create',
@@ -114,4 +114,14 @@ class MaklumatPelajarPenjaga extends \yii\db\ActiveRecord
             'update_by' => 'Update By',
         ];
     }
+
+    public function getPendapatanbapa()
+    {
+        return $this->hasOne(LookupPendapatan::className(), ['id' => 'gaji_bapa']);
+    }
+    public function getPendapatanibu()
+    {
+        return $this->hasOne(LookupPendapatan::className(), ['id' => 'gaji_ibu']);
+    }
+
 }

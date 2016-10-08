@@ -56,7 +56,7 @@ AppAssetSignup::register($this);
                     <!-- BEGIN PAGE HEADER-->
                     <div class="portlet light bordered">
 
-                        <img src="<?php echo Yii::$app->request->baseUrl; ?>/image/banner.png"  class="banner"/>
+                        <img src="<?php echo Yii::$app->request->baseUrl; ?>/image/banner.png"  style="height: 190px;width: 90%;padding-left: 100px;" class="banner"/>
                         
 					   
 					</div>

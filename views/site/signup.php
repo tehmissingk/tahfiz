@@ -49,29 +49,30 @@ $this->params['breadcrumbs'][] = $this->title;
                         <div id="collapse_3_1" class="panel-collapse in">
                             <div class="panel-body">
 
-                            <?= $form->field($model, 'nama_pelajar')->textInput(['maxlength' => true,'style'=>'text-transform:uppercase']) ?>
+                    <?= $form->field($model, 'nama_pelajar')->textInput(['maxlength' => true,'style'=>'text-transform:uppercase']) ?>
 
-                            <?= $form->field($model, 'jantina')->dropDownList([ 'Lelaki' => 'Lelaki', 'Perempuan' => 'Perempuan', ], ['prompt' => '']) ?>
+                    <?= $form->field($model, 'jantina')->dropDownList([ 'Lelaki' => 'Lelaki', 'Perempuan' => 'Perempuan', ], ['prompt' => '--Sila Pilih--']) ?>
 
-                            <?= $form->field($model, 'tarikh_lahir')->textInput(['maxlength' => true]) ?>
+                    <?= $form->field($model, 'tarikh_lahir')->textInput(['maxlength' => true,'class'=>'form-control date-picker']) ?>
 
-                            <?= $form->field($model, 'tempat_lahir')->textInput(['maxlength' => true]) ?>
+                    <?= $form->field($model, 'tempat_lahir')->textarea(['rows' => 6]) ?>
 
-                            <?= $form->field($model, 'no_surat_beranak')->textInput(['maxlength' => true]) ?>
+                    <?= $form->field($model, 'no_surat_beranak')->textInput(['maxlength' => true]) ?>
 
-                            <?= $form->field($model, 'no_mykid')->textInput(['maxlength' => true]) ?>
+                    <?= $form->field($model, 'no_mykid')->textInput(['maxlength' => true]) ?>
 
-                            <?= $form->field($model, 'tarikh_masuk')->textInput(['maxlength' => true]) ?>
+                    <?= $form->field($model, 'tarikh_masuk')->textInput(['maxlength' => true,'class'=>'form-control date-picker']) ?>
 
-                            <?= $form->field($model, 'tahun_mula')->textInput(['maxlength' => true]) ?>
+                    <?= $form->field($model, 'tahun_mula')->textInput(['maxlength' => true]) ?>
 
-                            <?= $form->field($model, 'alamat_rumah')->textarea(['rows' => 6]) ?>
+                    <?= $form->field($model, 'alamat_rumah')->textarea(['rows' => 6]) ?>
 
-                            <?= $form->field($model, 'SPRA')->textInput(['maxlength' => true]) ?>
+                    <?= $form->field($model, 'SPRA')->textInput(['maxlength' => true]) ?>
 
-                            <?= $form->field($model, 'PSRA')->textInput(['maxlength' => true]) ?>
+                    <?= $form->field($model, 'PSRA')->textInput(['maxlength' => true]) ?>
 
-                            <?= $form->field($model, 'warganegara')->textInput(['maxlength' => true]) ?>
+                    <?= $form->field($model, 'warganegara')->dropDownList([ 'Warganegara' => 'Warganegara', 'Bukan Warganegara' => 'Bukan Warganegara', ], ['prompt' => '--Sila Pilih--']) ?>
+
 
                             </div>
                         </div>
@@ -95,9 +96,14 @@ $this->params['breadcrumbs'][] = $this->title;
 
                                 <?= $form->field($model, 'no_hp_bapa')->textInput(['maxlength' => true]) ?>
 
-                                <?= $form->field($model, 'alamat_majikan_bapa_penjaga')->textInput(['maxlength' => true]) ?>
+                                <?= $form->field($model, 'alamat_majikan_bapa_penjaga')->textarea(['rows' => 6]) ?>
 
-                                <?= $form->field($model, 'gaji_bapa')->textInput(['maxlength' => true]) ?>
+                                <?= $form->field($model, 'gaji_bapa')->dropDownList(
+                                    $pendapatan, 
+                                [
+                                    'prompt' => '--Sila Pilih--',
+
+                                ]) ?>
 
                                 <?= $form->field($model, 'nama_ibu')->textInput(['maxlength' => true]) ?>
 
@@ -109,9 +115,15 @@ $this->params['breadcrumbs'][] = $this->title;
 
                                 <?= $form->field($model, 'no_hp_ibu')->textInput(['maxlength' => true]) ?>
 
-                                <?= $form->field($model, 'alamat_majikan_ibu')->textInput(['maxlength' => true]) ?>
+                                <?= $form->field($model, 'alamat_majikan_ibu')->textarea(['rows' => 6]) ?>
 
-                                <?= $form->field($model, 'gaji_ibu')->textInput(['maxlength' => true]) ?>
+                                <?= $form->field($model, 'gaji_ibu')->dropDownList(
+                                    $pendapatan, 
+                                [
+                                    'prompt' => '--Sila Pilih--',
+
+                                ]) ?>
+
                             </div>
                         </div>
                     </div>
@@ -125,13 +137,13 @@ $this->params['breadcrumbs'][] = $this->title;
                         <div id="collapse_3_3" class="panel-collapse collapse">
                             <div class="panel-body">
 
-                                <?= $form->field($model2, 'nama_pusat_pengajian_pertama')->dropDownList($pengajian, ['prompt' => '']) ?>
+                                <?= $form->field($model2, 'nama_pusat_pengajian_pertama')->dropDownList($pengajian, ['prompt' => '--Sila Pilih--']) ?>
 
-                                <?= $form->field($model2, 'nama_pusat_pengajian_kedua')->dropDownList($pengajian, ['prompt' => '']) ?>
+                                <?= $form->field($model2, 'nama_pusat_pengajian_kedua')->dropDownList($pengajian, ['prompt' => '--Sila Pilih--']) ?>
 
-                                <?= $form->field($model2, 'nama_pusat_pengajian_ketiga')->dropDownList($pengajian, ['prompt' => '']) ?>
+                                <?= $form->field($model2, 'nama_pusat_pengajian_ketiga')->dropDownList($pengajian, ['prompt' => '--Sila Pilih--']) ?>
 
-                                <?= $form->field($model2, 'sessi_pengajian')->dropDownList([ 'Sessi Pagi' => 'Sessi Pagi', 'Sessi Petang' => 'Sessi Petang', ], ['prompt' => '']) ?>
+                                <?= $form->field($model2, 'sessi_pengajian')->dropDownList([ 'Sessi Pagi' => 'Sessi Pagi', 'Sessi Petang' => 'Sessi Petang', ], ['prompt' => '--Sila Pilih--']) ?>
                             </div>
                         </div>
                     </div>

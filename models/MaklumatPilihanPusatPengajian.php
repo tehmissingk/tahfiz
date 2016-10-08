@@ -50,4 +50,19 @@ class MaklumatPilihanPusatPengajian extends \yii\db\ActiveRecord
             'id_pelajar' => 'Id Pelajar',
         ];
     }
+
+
+    public function getPertama()
+    {
+        return $this->hasOne(LookupPusatPengajian::className(), ['id' => 'nama_pusat_pengajian_pertama']);
+    }
+    public function getKedua()
+    {
+        return $this->hasOne(LookupPusatPengajian::className(), ['id' => 'nama_pusat_pengajian_kedua']);
+    }
+    public function getKetiga()
+    {
+        return $this->hasOne(LookupPusatPengajian::className(), ['id' => 'nama_pusat_pengajian_ketiga']);
+    }
+
 }

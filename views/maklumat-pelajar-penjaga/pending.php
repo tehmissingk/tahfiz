@@ -66,14 +66,14 @@ $this->params['breadcrumbs'][] = $this->title;
                             [
                                 'header' => 'Tindakan',
                                 'class' => 'yii\grid\ActionColumn',
-                                'template'=>'{view} {update} {delete}',
+                                'template'=>'{view} {status} {delete}',
                                 'buttons' => [
                                     'view' => function ($url, $model) {
                                         return Html::a('<i class="fa fa-file-o"></i>', 
                                             $url,['title'=> Yii::t('app','Lihat'),'class'=>'btn btn-circle btn-icon-only green-meadow']);
 
                                     },
-                                    'update' => function ($url, $model) {
+                                    'status' => function ($url, $model) {
                                         return Html::a('<i class="fa fa-pencil"></i>', 
                                             $url,['title'=> Yii::t('app','Kemaskini'),'class'=>'btn btn-circle btn-icon-only btn-primary']);
 
