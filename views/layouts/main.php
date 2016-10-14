@@ -244,7 +244,7 @@ AppAsset::register($this);
 
                                     ]
                                 ],
-                                ['label' => '<h3 class="uppercase">PAYROLL</h3>',
+                                /*['label' => '<h3 class="uppercase">PAYROLL</h3>',
                                     'options'=>['class'=>'heading'],
                                 ],
                                 ['label' => '',
@@ -271,7 +271,7 @@ AppAsset::register($this);
                                                 ['label' => 'Laporan Bank', 'url' => ['pay-slip/laporan_bank']],
                                                 ['label' => 'Pengurusan Cuti', 'url' => ['#']],
                                     ]
-                                ],
+                                ],*/
 
                             ],
                             'activateParents'=>true,

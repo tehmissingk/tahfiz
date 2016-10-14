@@ -26932,3 +26932,76 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1475890124.143
     'REQUEST_TIME' => 1475890124
 ]
+2016-10-08 09:51:56 [::1][-][q5lhsf66ivsub0q7c9429bp306][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/#' in C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('#', Array)
+#1 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\web\Application.php(87): yii\base\Module->runAction('site/#', Array)
+#2 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\tafhim\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\web\Application.php:99
+Stack trace:
+#0 C:\xampp\htdocs\tafhim\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\tafhim\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-10-08 09:51:56 [::1][-][q5lhsf66ivsub0q7c9429bp306][info][application] $_GET = [
+    'r' => 'site/#'
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C\";}'
+    '_csrf' => '1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX\";}'
+    'PHPSESSID' => 'q5lhsf66ivsub0q7c9429bp306'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/tafhim/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/tafhim/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9f015abd43e4a20f3bb19be1d2c83fd60044c9f3f3e1c1a8283d7d8648b6f343a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pa9uC9Pp4b2h2hFwAkmmJ0uQ2h3sh_3C%22%3B%7D; _csrf=1e31218988f783d05acdfa384ed3e445055c7f8811e74cf3d6cbc8248a98fbaca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221IB9K3vzn4ZXS8g-BF1Va_piSOqV5VYX%22%3B%7D; PHPSESSID=q5lhsf66ivsub0q7c9429bp306'
+    'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Git\\cmd;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\Users\\fuad\\bin\\Sencha\\Cmd;C:\\Users\\fuad\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\fuad\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\fuad\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.23'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/tafhim/web/index.php'
+    'REMOTE_PORT' => '63680'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2F%23'
+    'REQUEST_URI' => '/tafhim/web/index.php?r=site%2F%23'
+    'SCRIPT_NAME' => '/tafhim/web/index.php'
+    'PHP_SELF' => '/tafhim/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1475891516.303
+    'REQUEST_TIME' => 1475891516
+]

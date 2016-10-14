@@ -39,6 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                                 </div>
                                 <div class="col-sm-8 text-right">
+                                    <?= Html::a('Pendaftaran ', ['signup'], ['class' => 'forget-password','target'=>'_BLANK']) ?>
      
                                     <?= Html::submitButton('Sign In', ['class' => 'btn blue', 'name' => 'login-button']) ?>
 
